@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+body{
+    background-image: linear-gradient( to right,red,yellow);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.container{
+    height: auto;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 25%;
+}
+
+#temp{
+    font-size: 5rem;
+}
+
+#place{
+    position: relative;
+    margin-left: 2rem;
+
+}
+
+#time{
+    position: relative;
+    /* margin-top: 2rem; */
+    margin-left: 2rem;
+}
+
+#image{
+    position: relative;
+    margin-left: 1.8rem;
+    margin-top: -0.8rem;
+}
+
+#weather{
+    position: relative;
+    margin-top: -1.2rem;
+    margin-left: 2rem;
+}
+
+nav{
+    height: 100px;
+    box-shadow: 0 0 25px rgba(0,0,0,1.8);
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    background-color: rgba(180,177,177,0.77);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+nav form{
+    width: 70%;
+    /* background-color: whitesmoke; */
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+
+
+}
+
+#nameofplace{
+    font-size: 1.1rem;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    padding: 1rem 0;
+    border: none;
+    border-bottom: 2px solid white;
+    padding-left: 1.9rem;
+
+
+}
+
+nav form button{
+    background-color: rgb(91, 152, 37);
+    border-radius: 0 25px 25px 0;
+    font-size: 1.1rem;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
